@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        div{
+            background-color: tomato;
+            width: 200px;
+            height: 200px;
+        }
+        span{
+            font-size: 18px;
+        }
+        @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+            div{
+                background-color: teal;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            div{
+                background-color: yellowgreen;
+            }
+        }
+        @media screen and (orientation: landscape) {
+            span{
+                display: none;
+            }
+        }
+        @media print {
+            body{
+                background-color: tomato;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <span>휴대폰을 뒤집어 주세요.</span>
+</body>
+</html>
