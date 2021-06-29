@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Kokoa Talk</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -16,9 +18,21 @@
         </div>
         <div class="status-bar__column">
             <span>111%</span>
-            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KaKaoTalk</h1>
+        <p class="welcome-header__text">If you have a Kakao Account,<br>log in with your email or phone number.</p>
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In">
+        <input type="button" value="Sign Up">
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+    
 </body>
 </html>
