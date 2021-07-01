@@ -1,6 +1,11 @@
 .nav{
     background-color: #f9f9fa;
     padding: 20px 50px;
+    border-top: 1px solid rgba(121, 121, 121, .3);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .nav__ul{
@@ -10,9 +15,34 @@
 }
 
 .nav__li{
-
+    color: #2e363e;
+    position: relative;
 }
 
-.nav__a{
+.nav__notification{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;    
+}
 
+.nav__red-spot{
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 28px;
+    bottom: 27px; 
 }
