@@ -34,14 +34,6 @@
 }
 
 .nav__red-spot{
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
     position: absolute;
     left: 28px;
     bottom: 27px; 
