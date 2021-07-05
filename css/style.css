@@ -8,7 +8,7 @@
 @import "components/badge.css";
 /* screen */
 @import "screen/login.css";
-@import "/screen/friends.css";
+@import "screen/friends.css";
 @import "screen/find.css";
 
     
