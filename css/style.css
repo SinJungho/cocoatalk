@@ -9,6 +9,7 @@
 /* screen */
 @import "screen/login.css";
 @import "/screen/friends.css";
+@import "screen/find.css";
 
     
 body{
@@ -18,6 +19,20 @@ body{
 
 .main-screen{
     padding: 0px var(--horizontal-space);
+}
+
+.header__spot{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    position: absolute; 
+    top: 48px;
+    right: 46px;
 }
 
 
