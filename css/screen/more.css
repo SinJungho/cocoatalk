@@ -1,0 +1,22 @@
+.more-screen .icon-row{
+    margin-top: 65px;
+}
+
+.danger__badge{
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    color: tomato;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.more-suggestions__icons{
+    display: flex;
+    justify-content: center;
+}
