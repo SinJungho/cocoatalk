@@ -23,6 +23,10 @@ body{
     padding: 0px var(--horizontal-space);
 }
 
+.more-screen{
+    padding: 0px var(--horizontal-space);
+}
+
 .header__spot{
     background-color: tomato;
     width: 6px;
